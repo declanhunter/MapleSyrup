@@ -1,0 +1,56 @@
+header {
+    position: fixed;
+    height: 110px;
+    background-color: lightyellow;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+header h1 {
+    flex-grow: 1;
+    border: 1px solid blue;
+    padding-left: 10px;
+}
+
+header p {
+    flex-basis: 150px;
+    flex-shrink: 1;
+    border: 1px solid red;
+} 
+
+
+p {
+    font-size: 14;
+
+}
+
+body {
+    background-color: lightslategrey;
+    padding: 120px 0 60px 0;
+    font-family: 'Langer', cursive;
+}
+
+.about {
+    display: grid;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 55px;
+    background-color: linen;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.info {
+   position: scroll;
+      
+
+}

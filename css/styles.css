@@ -13,14 +13,12 @@ header {
 
 header h1 {
     flex-grow: 1;
-    border: 1px solid blue;
     padding-left: 10px;
 }
 
 header p {
     flex-basis: 150px;
     flex-shrink: 1;
-    border: 1px solid red;
 } 
 
 
@@ -55,4 +53,19 @@ footer {
    position: scroll;
      
 
+}
+
+.situation {
+    display: flex;
+    align-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 35px;
+    font-size: 14px;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+
+.situation p {
+    display: flex;
 }

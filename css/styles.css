@@ -1,13 +1,12 @@
 header {
     position: fixed;
-    height: 90px;
-    background-color: lightslategray;
     width: 100%;
     top: 0;
     left: 0;
     display: flex;
     flex-wrap: nowrap;
-    
+    background-color: transparent;
+    color: white;
 }
 
 header h1 {
@@ -28,17 +27,49 @@ p {
 
 body {
     background-color: white;
-    padding: 80px 0 60px 0;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    padding-bottom: 60px;
+    margin: 0;
 }
 
-.about {
+.about-grid {
     display: grid;
-    
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+        "title picture"
+        "text picture";
+    height: 390px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+   
 }
+
+.about-title {
+    grid-area: title;
+}
+
+.about-text {
+    grid-area: text;
+}
+
+.about-picture {
+    grid-area: picture;
+}
+
+.tapping {
+    grid-template-areas:
+        "picture title"
+        "picture text";
+}
+
+.boiling {
+    grid-template-areas: 
+        "picture title"
+        "picture text";
+}
+
 
 footer {
     position: fixed;
@@ -56,7 +87,50 @@ footer {
 
 }
 
-.situation {
-  background-image: url()
-  height: 1000px;
+.welcome {
+  background-image: url(../images/gil_and_dec_3874.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  text-align: center;
+  padding-top: 250px;
+  color: white;
 }
+
+.button {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.tapping-picture {
+    height: 380px;
+    width: auto;
+}
+
+.sap-picture {
+    height: 300px;
+    width: auto;
+}
+
+.boiling-picture {
+    height: 350px;
+    width: auto;
+}
+
+.bottling-picture {
+    height: 400px;
+    width: auto;
+}
+
+.big-title {
+    text-align: center;
+    margin: 130px 0 120px 0;
+}
+
+

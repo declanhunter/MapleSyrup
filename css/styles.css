@@ -22,7 +22,7 @@ header p {
 
 p {
     font-size: 14;
-
+    
 }
 
 body {
@@ -83,8 +83,6 @@ footer {
 
 .info {
    position: scroll;
-      
-
 }
 
 .welcome {
@@ -132,5 +130,3 @@ footer {
     text-align: center;
     margin: 130px 0 120px 0;
 }
-
-

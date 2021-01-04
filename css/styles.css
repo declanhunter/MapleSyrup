@@ -40,10 +40,9 @@ body {
     grid-template-areas:
         "title picture"
         "text picture";
-    height: 390px;
+    height: 360px;
     margin-bottom: 60px;
     margin-top: 30px;
-   
 }
 
 .about-title {
@@ -58,18 +57,17 @@ body {
     grid-area: picture;
 }
 
-.tapping {
-    grid-template-areas:
-        "picture title"
-        "picture text";
-}
-
 .boiling {
     grid-template-areas: 
         "picture title"
         "picture text";
 }
 
+.bottling {
+    grid-template-areas: 
+        "picture title"
+        "picture text";
+}
 
 footer {
     position: fixed;
@@ -112,7 +110,7 @@ footer {
 }
 
 .sap-picture {
-    height: 300px;
+    height: 325px;
     width: auto;
 }
 
@@ -122,11 +120,23 @@ footer {
 }
 
 .bottling-picture {
-    height: 400px;
+    height: 415px;
     width: auto;
 }
 
 .big-title {
     text-align: center;
-    margin: 130px 0 120px 0;
+    margin: 150px 0 90px 0;
 }
+
+body .about-text {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+body .about-title {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
